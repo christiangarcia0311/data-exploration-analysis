@@ -851,6 +851,9 @@ process of generating data, ensuring that it meets specific criteria and is prop
     
     # generate a academic performance dataset
     # sample data should be in dictionary format
+    # for string we use list
+    # for int and float we use tuple
+    # in tuple (<data type>, <min range>, <max range>)
     sample_data = {
             'Grade_Level': ['Señior High', 'Juñior High'],
             'Performance_Rate': ['A', 'B', 'C', 'D'],
@@ -861,8 +864,8 @@ process of generating data, ensuring that it meets specific criteria and is prop
     
     """
     Parameters:
-    - sample_data (str): the name of dataset being created.
-    - n_instance (str): specify the number of instance to be used.
+    - sample_data (dict): the name of dataset being created.
+    - n_instance (int): specify the number of instance to be used.
     
     Returns:
     - DataFrame: dataset detailed value.
