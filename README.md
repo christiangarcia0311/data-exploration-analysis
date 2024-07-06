@@ -68,14 +68,14 @@ target (class) information. Equal Width and Equal Frequency are two unsupervised
         Perform Equal Width Binning
      
         Parameters:
-        data (DataFrame): containing the relevant columns.
-        feature-column (str): selected column to be bin.
-        bins (int): specify the number of bins to be use.
+        - data (DataFrame): containing the relevant columns.
+        - feature-column (str): selected column to be bin.
+        - bins (int): specify the number of bins to be use.
      
         Returns:
-        List: containing equal width binning results
-        String: containing the label and binning results
-        Plot: visualize the binned data
+        - List: containing equal width binning results
+        - String: containing the label and binning results
+        - Plot: visualize the binned data
         
     """
 ```
@@ -110,14 +110,14 @@ approximately same number of values.
        Perform Equal Frequency Binning
        
        Parameters:
-       data (DataFrame): containing the relevant columns.
-       feature-column (str): column name to be bin.
-       bins (int):  specify the number of bins to be use.
+       - data (DataFrame): containing the relevant columns.
+       - feature-column (str): column name to be bin.
+       - bins (int):  specify the number of bins to be use.
        
        Returns:
-       List: containing equal width binning results
-       String: containing the label and binning results
-       Plot: visualize the binned data
+       - List: containing equal width binning results
+       - String: containing the label and binning results
+       - Plot: visualize the binned data
        
     """
 
@@ -154,13 +154,13 @@ target (class) information when selecting discretization cut points.
     Perform Entropy Based Binning
     
     Parameters:
-    data (DataFrame): containing the relevant columns.
-    feature-column (str): column name to be bin.
-    target-column (str): slected column for calculating the entropy
+    - data (DataFrame): containing the relevant columns.
+    - feature-column (str): column name to be bin.
+    - target-column (str): slected column for calculating the entropy
     
     Returns:
-    DataFrame: containing entropy data information.
-    String:  contains data information in split interval.
+    - DataFrame: containing entropy data information.
+    - String:  contains data information in split interval.
     
     """
 
@@ -201,12 +201,12 @@ absence or presence of each category.
     Create Binary Encoding
     
     Parameters:
-    data (DataFrame): the dataset contains relevant column being used.
-    selected-column (str): column name needs to be encoded.
-    encode-column (str): column contains binary encoded values.
+    - data (DataFrame): the dataset contains relevant column being used.
+    - selected-column (str): column name needs to be encoded.
+    - encode-column (str): column contains binary encoded values.
     
     Returns:
-    DataFrame: containing the data encoded information.
+    - DataFrame: containing the data encoded information.
     """
     
 ```
@@ -237,12 +237,12 @@ absence or presence of each category.
     Create Target-Based Encoding
     
     Parameters:
-    data (DataFrame): dataset containing relevant columns being used.
-    feature-column (str): selected column to be encode.
-    target-column (str): target column values for computing means.
+    - data (DataFrame): dataset containing relevant columns being used.
+    - feature-column (str): selected column to be encode.
+    - target-column (str): target column values for computing means.
     
     Returns:
-    DataFrame: containing the data encoded and probability information
+    - DataFrame: containing the data encoded and probability information
     """
     
 ```
@@ -271,14 +271,14 @@ absence or presence of each category.
 **Sample/Usage:**
 
 ```python
-    ,"""
+    """
     Perform Impute Values
     
     Parameters:
-    data (DataFrame): containing relevant columns with missing values.
+    - data (DataFrame): containing relevant columns with missing values.
     
     Returns:
-    DataFrame: contains impute values.
+    - DataFrame: contains impute values.
     """
 ```
 
@@ -311,11 +311,11 @@ absence or presence of each category.
     Count Values in Column
     
     Parameters:
-    data (DataFrame): dataset to be used for counting.
-    feature-column (str): column name to perform count.
+    - data (DataFrame): dataset to be used for counting.
+    - feature-column (str): column name to perform count.
     
     Returns:
-    DataFrame: containing count in numerical and decimal format.
+    - DataFrame: containing count in numerical and decimal format.
     
     """
 
@@ -343,11 +343,11 @@ _Sample/Usage:_
      Create Pie Chart
      
      Parameters:
-     data (DataFrame): dataset containing relevant columns.
-     feature-column (str): column name to be displayed in chart.
+     - data (DataFrame): dataset containing relevant columns.
+     - feature-column (str): column name to be displayed in chart.
      
-      Returns:
-      Plot: containing the distribution of categorical values.
+     Returns:
+     - Plot: containing the distribution of categorical values.
        
      """
     
@@ -367,12 +367,12 @@ _Sample/Usage:_
     """
     Create Bar Chart
     
-     Parameters:
-     data (DataFrame): dataset containing relevant columns.
-     feature-column (str): column name to be displayed in chart.
+    Parameters:
+    - data (DataFrame): dataset containing relevant columns.
+    - feature-column (str): column name to be displayed in chart.
      
-      Returns:
-      Plot: containing the frequency of each category.
+    Returns:
+    - Plot: containing the frequency of each category.
        
      """
 
@@ -467,11 +467,11 @@ ranges (bins).
     Create Histogram
     
     Parameters:
-    data (DataFrame): dataset being used.
-    bins (int): specify number of bins to be used.
+    - data (DataFrame): dataset being used.
+    - bins (int): specify number of bins to be used.
     
     Returns:
-    Plot: containing the category information.
+    - Plot: containing the category information.
     
     """
     
@@ -531,12 +531,12 @@ relationship between two variables.
     Create Scatter Plot
     
     Parameters:
-    data (DataFrame): contains relevant columns to be used.
-    X_data_column (str): columns assigned in X-Axis.
-    Y_data_column (str): columns assigned in Y-Axis.
+    - data (DataFrame): contains relevant columns to be used.
+    - X_data_column (str): columns assigned in X-Axis.
+    - Y_data_column (str): columns assigned in Y-Axis.
     
     Returns:
-    Plot: containing the relationship information of data.
+    - Plot: containing the relationship information of data.
     
     """
     
@@ -564,12 +564,12 @@ decrease with the values of the second quantity.
     Create Linear Correlation
     
     Parameters:
-    data (DataFrame): contains relevant columns to be used.
-    X_data_column (str): columns assigned in X-Axis.
-    Y_data_column (str): columns assigned in Y-Axis.
+    - data (DataFrame): contains relevant columns to be used.
+    - X_data_column (str): columns assigned in X-Axis.
+    - Y_data_column (str): columns assigned in Y-Axis.
     
     Returns:
-    Plot: containing the strength of a linear relationship information of data.
+    - Plot: containing the strength of a linear relationship information of data.
     
     """
     
@@ -596,12 +596,12 @@ decrease with the values of the second quantity.
     Perform Chi-Squared Test
     
     Parameters:
-    data (DataFrame): contains relevant columns to be used.
-    first_column (str): first column assigned for the contingency table.
-    second_column (str): second column assigned for the contingency table.
+    - data (DataFrame): contains relevant columns to be used.
+    - first_column (str): first column assigned for the contingency table.
+    - second_column (str): second column assigned for the contingency table.
     
     Returns:
-    DataFrame: containing the information of the  category.
+    - DataFrame: containing the information of the  category.
     
     """
     
@@ -636,12 +636,12 @@ decrease with the values of the second quantity.
     
     """
     Parameters:
-    data (DataFrame): contains relevant columns to be used.
-    first_column (str): column used for categories (X-Axis).
-    second_column (str): column used for values (Y-Axis).
+    - data (DataFrame): contains relevant columns to be used.
+    - first_column (str): column used for categories (X-Axis).
+    - second_column (str): column used for values (Y-Axis).
     
     Returns:
-    Plot: containing the patterns and categories of the data.
+    - Plot: containing the patterns and categories of the data.
     
     """
     
@@ -664,12 +664,12 @@ decrease with the values of the second quantity.
     
     """
     Parameters:
-    data (DataFrame): contains relevant columns to be used.
-    first_column (str): column represent X-Axis value.
-    second_column (str): column represent Y-Axis value.
+    - data (DataFrame): contains relevant columns to be used.
+    - first_column (str): column represent X-Axis value.
+    - second_column (str): column represent Y-Axis value.
     
     Returns:
-    Plot: containing the pattern of categories and values.
+    - Plot: containing the pattern of categories and values.
     
     """
     
@@ -695,14 +695,14 @@ decrease with the values of the second quantity.
     Perform Z-Test
     
     Parameters:    
-    data (DataFrame): contains relevant columns to be used.
-    first-column (str): column to be compared.
-    second-column (str): column to be compared.
-    first-target-value (str): group target in  first column.
-    second-target-value (str): group target in first column.
+    - data (DataFrame): contains relevant columns to be used.
+    - first-column (str): column to be compared.
+    - second-column (str): column to be compared.
+    - first-target-value (str): group target in  first column.
+    - second-target-value (str): group target in first column.
     
     Returns:
-    DataFrame: containing the Z stats result.
+    - DataFrame: containing the Z stats result.
     
     """
     
@@ -727,14 +727,14 @@ group membership) and the other variable is numerical
     Perform T-Test
     
     Parameters:    
-    data (DataFrame): contains relevant columns to be used.
-    first-column (str): column to be compared.
-    second-column (str): column to be compared.
-    first-target-value (str): group target in  first column.
-    second-target-value (str): group target in first column.
+    - data (DataFrame): contains relevant columns to be used.
+    - first-column (str): column to be compared.
+    - second-column (str): column to be compared.
+    - first-target-value (str): group target in  first column.
+    - second-target-value (str): group target in first column.
     
     Returns:
-    DataFrame: containing the T stats result.
+    - DataFrame: containing the T stats result.
     
     """
     
@@ -758,14 +758,14 @@ group membership) and the other variable is numerical
     Perform ANOVA
     
     Parameters:    
-    data (DataFrame): contains relevant columns to be used.
-    first-column (str): column to be compared.
-    second-column (str): column to be compared.
-    first-target-value (str): group target in  first column.
-    second-target-value (str): group target in first column.
+    - data (DataFrame): contains relevant columns to be used.
+    - first-column (str): column to be compared.
+    - second-column (str): column to be compared.
+    - first-target-value (str): group target in  first column.
+    - second-target-value (str): group target in first column.
     
     Returns:
-    DataFrame: containing the F stats result.
+    - DataFrame: containing the F stats result.
     
     """
     
@@ -790,12 +790,12 @@ group membership) and the other variable is numerical
     Create Line Chart
     
     Parameters:    
-    data (DataFrame): contains relevant columns to be used.
-    first-column (str): column for X-Axis.
-    second-column (str): column for Y-Axis.
+    - data (DataFrame): contains relevant columns to be used.
+    - first-column (str): column for X-Axis.
+    - second-column (str): column for Y-Axis.
     
     Returns:
-    Plot: containing the pattern relationship of the variable.
+    - Plot: containing the pattern relationship of the variable.
     
     """
     
@@ -812,13 +812,13 @@ group membership) and the other variable is numerical
     Create 2-Y Axis Plot
     
     Parameters:    
-    data (DataFrame): contains relevant columns to be used.
-    X-column (str): column for X-Axis.
-    Y1-column (str): column for primary Y-Axis.
-    Y2-column (str): column for secondary Y-Axis.
+    - data (DataFrame): contains relevant columns to be used.
+    - X-column (str): column for X-Axis.
+    - Y1-column (str): column for primary Y-Axis.
+    - Y2-column (str): column for secondary Y-Axis.
     
     Returns:
-    Plot: containing the pattern relationship of three variable.
+    - Plot: containing the pattern relationship of three variable.
     
     """
     
@@ -861,11 +861,11 @@ process of generating data, ensuring that it meets specific criteria and is prop
     
     """
     Parameters:
-    sample_data (str): the name of dataset being created.
-    n_instance (str): specify the number of instance to be used.
+    - sample_data (str): the name of dataset being created.
+    - n_instance (str): specify the number of instance to be used.
     
     Returns:
-    DataFrame: dataset detailed value.
+    - DataFrame: dataset detailed value.
     
     """
     
