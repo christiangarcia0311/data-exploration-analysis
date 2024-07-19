@@ -287,7 +287,7 @@ absence or presence of each category.
 ```python
 
     # impute data with missing values
-    impute = impute_values(data)
+    impute = univariate.impute_values(data)
    
     # your-file.ipynb
     > impute
