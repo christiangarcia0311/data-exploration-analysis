@@ -896,5 +896,8 @@ process of generating data, ensuring that it meets specific criteria and is prop
 # Author
 ![Static Badge](https://img.shields.io/badge/Christian-Garcia-orange?link=https%3A%2F%2Fgithub.com%2Fchristiangarcia0311)
 
+# Documentation Reference
+
+[Data Mining](https://www.saedsayad.com/data_mining.htm)
 
 Feel free to contribute to this library by submitting issues or pull requests to the repository.
