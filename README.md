@@ -8,6 +8,8 @@
 
 ![dataexploration](images/DataExploration.jpg)
 
+[Reference...](#Documentation_Reference)
+
 **Data exploration** is the initial step in data analysis, where users explore a large 
 data set in an unstructured way to uncover initial patterns, characteristics, and 
 points of interest. This process is not meant to reveal every bit of information a dataset holds, but rather to help create a broad picture of important
@@ -899,5 +901,7 @@ process of generating data, ensuring that it meets specific criteria and is prop
 # Documentation Reference
 
 [Data Mining](https://www.saedsayad.com/data_mining.htm)
+
+[Data Exploration](https://www.saedsayad.com/data_exploration.htm)
 
 Feel free to contribute to this library by submitting issues or pull requests to the repository.
