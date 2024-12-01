@@ -1,5 +1,6 @@
-![Static Badge](https://img.shields.io/badge/pypi-v.3.1.2-blue) ![Static Badge](https://img.shields.io/badge/data_exploration-green?link=https%3A%2F%2Fsaedsayad.com%2Fdata_exploration.htm) ![Static Badge](https://img.shields.io/badge/univariate-analysis-brown?link=https%3A%2F%2Fsaedsayad.com%2Funivariate_analysis.htm)
-![Static Badge](https://img.shields.io/badge/bivariate-analysis-brown?link=https%3A%2F%2Fsaedsayad.com%2Fbivariate_analysis.htm) ![Static Badge](https://img.shields.io/badge/binning-green?link=https%3A%2F%2Fsaedsayad.com%2Fbinning.htm) ![Static Badge](https://img.shields.io/badge/encoding-blue?link=https%3A%2F%2Fsaedsayad.com%2Fencoding.htm) ![Static Badge](https://img.shields.io/badge/missing_values-gray?link=https%3A%2F%2Fsaedsayad.com%2Fmissing_values.htm)
+![Static Badge](https://img.shields.io/badge/pypi-v.3.1.2-blue?style=for-the-badge)  
+![Static Badge](https://img.shields.io/badge/data_exploration-green?style=for-the-badge&link=https%3A%2F%2Fsaedsayad.com%2Fdata_exploration.htm) ![Static Badge](https://img.shields.io/badge/univariate-analysis-brown?style=for-the-badge&link=https%3A%2F%2Fsaedsayad.com%2Funivariate_analysis.htm)
+![Static Badge](https://img.shields.io/badge/bivariate-analysis-brown?style=for-the-badge&link=https%3A%2F%2Fsaedsayad.com%2Fbivariate_analysis.htm) ![Static Badge](https://img.shields.io/badge/binning-green?style=for-the-badge&link=https%3A%2F%2Fsaedsayad.com%2Fbinning.htm) ![Static Badge](https://img.shields.io/badge/encoding-blue?style=for-the-badge&link=https%3A%2F%2Fsaedsayad.com%2Fencoding.htm) ![Static Badge](https://img.shields.io/badge/missing_values-gray?style=for-the-badge&link=https%3A%2F%2Fsaedsayad.com%2Fmissing_values.htm)
 
 
 
@@ -893,10 +894,10 @@ process of generating data, ensuring that it meets specific criteria and is prop
 | `grid` | True, False |
 
 # License
-![Static Badge](https://img.shields.io/badge/MIT-License-blue)
+![Static Badge](https://img.shields.io/badge/MIT-License-blue?style=for-the-badge)
 
 # Author
-![Static Badge](https://img.shields.io/badge/Christian-Garcia-orange?link=https%3A%2F%2Fgithub.com%2Fchristiangarcia0311)
+![Static Badge](https://img.shields.io/badge/Christian-Garcia-orange?style=for-the-badge&link=https%3A%2F%2Fgithub.com%2Fchristiangarcia0311)
 
 # Documentation Reference
 
